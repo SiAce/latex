@@ -8,4 +8,4 @@ before_install:
 - docker pull siacespark/latex:0.1
 
 script:
-- docker run siacespark/latex:0.1 /bin/bash -c "cd /home; git clone https://github.com/SiAce/latex; cd latex/; ./test.sh"
+- docker run siacespark/latex:0.1 /bin/bash -c "cd /home; git clone https://github.com/SiAce/latex; cd latex/; chmod +x test.sh; ./test.sh"
