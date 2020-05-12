@@ -5,7 +5,4 @@ services:
 
 before_install:
 - docker pull siacespark/latex:0.1
-- docker run siacespark/latex:0.1 /bin/sh -c "cd /root; git clone https://github.com/SiAce/latex; cd latex/"
-
-script:
-- for tex in *.py; do pdflatex "$tex"; done
+- docker run siacespark/latex:0.1 /bin/sh -c "cd /root; git clone https://github.com/SiAce/latex; cd latex/; for tex in *.py; do pdflatex "$tex"; done"
