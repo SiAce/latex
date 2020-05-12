@@ -1,0 +1,12 @@
+# mac fils
+_DS_Store
+
+# latex compile temperary files
+*.aux
+*.fls
+*.log
+*.fdb_latexmk
+*.synctex.gz
+
+# latex comiled pdf
+*.pdf
