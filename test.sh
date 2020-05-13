@@ -1,5 +1,5 @@
 #!/bin/bash
 for f in *.tex
 do
-   pdflatex "$f"
+   latex "$f"
 done
