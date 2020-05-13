@@ -1,10 +1,21 @@
 \documentclass{article}
 
 \usepackage{graphicx}
+\usepackage{subcaption}
 
 \begin{document}
+Figure \ref{fig:boat1} shows a boat.Figure \ref{fig:boat1} shows a boat.Figure \ref{fig:boat1} shows a boat.
+Figure \ref{fig:boat1} shows a boat.Figure \ref{fig:boat1} shows a boat.Figure \ref{fig:boat1} shows a boat.
+Figure \ref{fig:boat1} shows a boat.Figure \ref{fig:boat1} shows a boat.Figure \ref{fig:boat1} shows a boat.
+Figure \ref{fig:boat1} shows a boat.Figure \ref{fig:boat1} shows a boat.Figure \ref{fig:boat1} shows a boat.
+Figure \ref{fig:boat1} shows a boat.Figure \ref{fig:boat1} shows a boat.Figure \ref{fig:boat1} shows a boat.
+Figure \ref{fig:boat1} shows a boat.Figure \ref{fig:boat1} shows a boat.Figure \ref{fig:boat1} shows a boat.
+Figure \ref{fig:boat1} shows a boat.Figure \ref{fig:boat1} shows a boat.Figure \ref{fig:boat1} shows a boat.
+estset
+st
+estsett
 
-\begin{figure}
+\begin{figure}[h]
     \centering
     \includegraphics[width=0.4\linewidth]{boat.png}
     \caption{A boat.}
@@ -12,5 +23,17 @@
 \end{figure}
 
 Figure \ref{fig:boat1} shows a boat.
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}{0.4\linewidth}
+        \includegraphics[width=\linewidth]{boat.png}
+    \end{subfigure}
+    \begin{subfigure}{0.4\linewidth}
+        \includegraphics[width=\linewidth]{boat.png}
+    \end{subfigure}
+    \caption{The same cup of coffee. Two times.}
+    \label{fig:coffee}
+\end{figure}
 
 \end{document}

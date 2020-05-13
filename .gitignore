@@ -1,5 +1,5 @@
 # mac fils
-_DS_Store
+.DS_Store
 
 # latex compile temperary files
 *.aux
@@ -7,6 +7,15 @@ _DS_Store
 *.log
 *.fdb_latexmk
 *.synctex.gz
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.out
 
 # latex comiled pdf
 *.pdf
+
+# vscode settings
+.vscode/
